@@ -4,6 +4,16 @@
     <title>Document</title>
 </head>
 <body>
-     
+     <script>
+        let x = prompt("숫자를 입력하세요");
+        x= parseInt(x);
+        for(let y=1; y<10; y++) {
+            document.write(x+"&nbsp;");
+            document.write("x"+"&nbsp;");
+            document.write(y);
+            document.write("=");
+            document.write(x*y+"<br/>");
+        }
+     </script>
 </body>
 </html>
